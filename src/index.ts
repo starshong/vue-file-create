@@ -7,7 +7,7 @@ const args = minimist(process.argv.slice(2))
 
 const pkg = fs.readJSONSync(path.join(process.cwd(), 'package.json'))
 const isTs = JSON.stringify(pkg).indexOf("typescript") > -1
-const templateRootPath =  `${path.join(process.cwd(), 'src/views')}`
+const templateRootPath = `${path.join(process.cwd(), 'src/templates')}`
 
 const vueFile = fs.readFileSync(path.join(templateRootPath, 'vue3-temp.vue'), { encoding: 'utf-8' })
 const s = new MagicString(vueFile)

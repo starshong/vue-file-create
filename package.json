@@ -1,17 +1,19 @@
 {
   "name": "vue-file-create",
-	"version": "0.0.1",
+  "version": "0.0.6",
   "type": "module",
+  "main": "bin/index.js",
   "bin": {
-		"vfc": "./bin/index.mjs"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"description": "create vue file and route for tool",
-	"license": "MIT",
+    "vfc": "./bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "create vue file and route for tool",
+  "license": "MIT",
   "scripts": {
     "dev": "tsdown -w",
+    "build": "tsdown",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
@@ -22,7 +24,8 @@
     "@types/node": "^25.5.0",
     "eslint": "^10.1.0",
     "tsdown": "^0.21.4",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.2",
+    "vue-file-create": "0.0.6"
   },
   "dependencies": {
     "fs-extra": "^11.3.4",
