@@ -9,11 +9,13 @@
   "publishConfig": {
     "access": "public"
   },
+  
   "description": "create vue file and route for tool",
   "license": "MIT",
   "scripts": {
     "dev": "tsdown -w",
     "build": "tsdown",
+    "vfc": "vfc -r src/pages ",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
