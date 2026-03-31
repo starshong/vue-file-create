@@ -9,7 +9,6 @@
   "publishConfig": {
     "access": "public"
   },
-  
   "description": "create vue file and route for tool",
   "license": "MIT",
   "scripts": {
@@ -32,6 +31,7 @@
   "dependencies": {
     "fs-extra": "^11.3.4",
     "magic-string": "^0.30.21",
-    "minimist": "^1.2.8"
+    "minimist": "^1.2.8",
+    "vue": "^3.5.31"
   }
 }
